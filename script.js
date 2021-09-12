@@ -1,10 +1,10 @@
 var img = document.getElementById("popIna1");
 var count = document.getElementById("score");
 var TWScore = document.getElementById('my_score');
-var MyScore = 800;
+var MyScore = 10000;
 var score = 0;
 var audio = new Audio('wah.mp3');
-var hk_score = 1000, tw_score = 800, th_score = 500, jp_score = 450, my_score = 100 ,fi_score = 250, se_score = 100, pl_score = 500, dm_score = 280, id_score=590, hu_score=319, sr_score = 300; 
+var hk_score = 20000, tw_score = 10000, th_score = 7000, jp_score = 4500, my_score = 1000 ,fi_score = 2500, se_score = 1000, pl_score = 5000, dm_score = 2800, id_score=5900, hu_score=3190, sr_score = 3000; 
 
 // mouseclick event
 img.addEventListener("mousedown", function(){
