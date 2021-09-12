@@ -127,6 +127,19 @@ input {
     body{
       overflow:hidden;
     }
+    input:checked ~ .tab-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 35%;
+        overflow-y:scroll;
+        max-height: 55%;
+        font-size: 20px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 15px;
+    }
     .tabs{
       font-size: 45px;
       margin-top: -5%;
@@ -142,7 +155,6 @@ input {
       padding-left: 10em;
     }
     .tab-content{
-        margin-top: 10%;
         left: 10%;
         overflow-y: scroll;
     }
