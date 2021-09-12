@@ -1,3 +1,3 @@
 # popIna
-Ina make this world better.
+Make this world better
 

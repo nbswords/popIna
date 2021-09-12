@@ -1,10 +1,10 @@
 var img = document.getElementById("popIna1");
 var count = document.getElementById("score");
 var TWScore = document.getElementById('my_score');
-var score = 0;
 var MyScore = 10000;
+var score = 0;
 var audio = new Audio('wah.mp3');
-var hk_score = 1000, tw_score = 430, th_score = 200, jp_score = 150, fi_score = 250, se_score = 100, pl_score = 500, dm_score = 280, id_score=590, hu_score=319, sr_score = 300; 
+var hk_score = 1000, tw_score = 800, th_score = 500, jp_score = 450, my_score = 100 ,fi_score = 250, se_score = 100, pl_score = 500, dm_score = 280, id_score=590, hu_score=319, sr_score = 300; 
 
 // mouseclick event
 img.addEventListener("mousedown", function(){
@@ -53,11 +53,18 @@ function startCountTh(){
     document.getElementById("table").rows[3].cells.item(3).innerHTML = th_score;
 }
 
-setInterval(startCountJp, 40);
+setInterval(startCountJp, 15);
 
 function startCountJp(){
     jp_score++;
     document.getElementById("table").rows[4].cells.item(3).innerHTML = jp_score;
+}
+
+setInterval(startCountMy, 40);
+
+function startCountMy(){
+    my_score++;
+    document.getElementById("table").rows[5].cells.item(3).innerHTML = my_score;
 }
 
 setInterval(startCountFi, 34);

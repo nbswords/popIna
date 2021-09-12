@@ -110,13 +110,13 @@ input {
     z-index: -1;
 }
 @media only screen and (max-width: 480px) {
-    #popcat1 {
-        width: 450px;
-        margin-top: -13%;
+    #popIna1 {
+        width: 400px;
+        margin-top: -6%;
     }
     h1{
         font-size: 4.5em;
-        margin-bottom: -20%;
+        margin-bottom: -10%;
     }
     img{
         height: 500px;
@@ -147,6 +147,6 @@ input {
         overflow-y: scroll;
     }
     .tab-content td{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
