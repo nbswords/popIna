@@ -112,7 +112,7 @@ input {
 @media only screen and (max-width: 480px) {
     #popIna1 {
         width: 400px;
-        margin-top: -6%;
+        margin-top: -8%;
     }
     h1{
         font-size: 4.5em;
@@ -128,9 +128,9 @@ input {
       overflow:hidden;
     }
     .tabs{
-      font-size: 35px;
-      margin-top: 5%;
-      margin-right: 25%;
+      font-size: 45px;
+      margin-top: -5%;
+      margin-right: 40%;
     }
     .tab-label{
       white-space: nowrap;
